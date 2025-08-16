@@ -400,7 +400,7 @@ _editables:
     removeformat: true
     right: align-right
     strike: true
-    styles: /src/assets/styles/editor.css
+    styles: /src/assets/css/editor.css
     subscript: true
     superscript: true
     table: true

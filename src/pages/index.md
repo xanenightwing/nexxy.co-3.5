@@ -3,8 +3,9 @@ _schema: default
 title: Home
 seo:
   page_description: >-
-    Nexan's Website - a place for a silly possum vtuber to put their opinions in
-    a way that can't be censored by the social media sites
+    A starting point for developers looking to build a website with Eleventy,
+    using Bookshop components in CloudCannon. Create your own copy, and start
+    creating your own components to use in the CloudCannon CMS.
   canonical_url:
   featured_image:
   featured_image_alt:
@@ -16,15 +17,19 @@ permalink: /
 eleventyExcludeFromCollections: false
 content_blocks:
   - _bookshop_name: hero
-    background_color: '#808080'
+    background_color: '#ffffff'
     heading:
-      heading_text:
-      heading_gradient_color: '#FF785A'
+      heading_text: Eleventy Bookshop Starter
+      heading_gradient_color: '#a0a2ff'
     subheading:
-      markdown_content: ''
+      markdown_content: >-
+        A starting point for **developers looking to build a website with
+        Eleventy, using Bookshop components in CloudCannon**. Create your own
+        copy, and start creating your own components to use in the CloudCannon
+        CMS.
       color: '#393939'
     image:
-      image_path:
+      image_path: /assets/images/undraw-online-test.svg
       alt_text: >-
         An illustration of someone leaning against the inside of a desktop
         computer monitor, with one leg dangled off the side. They're holding a
@@ -32,25 +37,49 @@ content_blocks:
         screen.
     buttons:
       - _bookshop_name: buttons/primary
-        button_text:
-        button_icon:
-        button_link:
+        button_text: GitHub
+        button_icon: fa-brands fa-github
+        button_link: https://github.com/CloudCannon/eleventy-starter/
         background_color: '#034ad8'
         hover_brightness: 0.85
         text_color: '#ffffff'
       - _bookshop_name: buttons/secondary
-        button_text:
-        button_icon:
-        button_link:
+        button_text: CloudCannon
+        button_icon: CloudCannon
+        button_link: https://www.cloudcannon.com
         text_color: '#034ad8'
         hover_brightness: 0.95
   - _bookshop_name: left-right
-    background_color: '#808080'
+    background_color: '#ffffff'
     heading:
-      heading_text:
+      heading_text: Keep what you need. Delete the rest.
       color: '#393939'
     text:
-      markdown_content: ''
+      markdown_content: >-
+        To help save you time, some features are set up in this template, like:
+
+        -
+        [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/)
+
+        - Blog with pagination, tags and
+        [snippets](https://cloudcannon.com/documentation/articles/snippets-using-eleventy-shortcodes/)
+
+        - [Image optimization](https://www.11ty.dev/docs/plugins/image/)
+
+        - SEO Controls
+
+        - Responsive header and footer
+
+        - [Font Awesome
+        Icons](https://fontawesome.com/search?o=r&m=free&s=solid)
+
+        - Schemas for adding new pages
+
+        - Editable color pallete
+
+        - Markdown styles
+
+        - CloudCannon configuration
       color: '#393939'
     image:
       image_path: /assets/images/undraw-hello.svg
@@ -69,9 +98,9 @@ content_blocks:
       text_color: '#ffffff'
   - _bookshop_name: left-right
     background_color: '#ffffff'
+    flipped: false
     heading:
       heading_text: You choose your editing experience.
-      color: '#393939'
       text_color: '#333232'
     text:
       markdown_content: >-
@@ -86,7 +115,6 @@ content_blocks:
         Git-backed means you can keep all your familiar git workflows, while
         providing an easy-to-understand interface for non-technical editors to
         collaborate via Git.
-      color: '#393939'
       text_color: '#333232'
     image:
       image_path: /assets/images/undraw-startup.svg
@@ -95,14 +123,13 @@ content_blocks:
         laptop that comes up their waist. One of their hands is on the back of
         the laptop, and one is in their pocket. On the laptop screen is an
         illustration of the world.
-    flipped: false
     button:
       _bookshop_name: buttons/primary
       button_text: GitHub
       button_icon: fa-brands fa-github
       button_link: https://github.com/CloudCannon/eleventy-starter/
+      button_aria_label:
       background_color: '#034AD8'
       hover_brightness: 0.85
       text_color: '#ffffff'
-      button_aria_label:
 ---
