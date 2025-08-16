@@ -16,19 +16,15 @@ permalink: /
 eleventyExcludeFromCollections: false
 content_blocks:
   - _bookshop_name: hero
-    background_color: '#ffffff'
+    background_color: '#808080'
     heading:
-      heading_text: Eleventy Bookshop Starter
-      heading_gradient_color: '#a0a2ff'
+      heading_text:
+      heading_gradient_color: '#FF785A'
     subheading:
-      markdown_content: >-
-        A starting point for **developers looking to build a website with
-        Eleventy, using Bookshop components in CloudCannon**. Create your own
-        copy, and start creating your own components to use in the CloudCannon
-        CMS.
+      markdown_content: ''
       color: '#393939'
     image:
-      image_path: /assets/images/undraw-online-test.svg
+      image_path:
       alt_text: >-
         An illustration of someone leaning against the inside of a desktop
         computer monitor, with one leg dangled off the side. They're holding a
@@ -36,49 +32,25 @@ content_blocks:
         screen.
     buttons:
       - _bookshop_name: buttons/primary
-        button_text: GitHub
-        button_icon: fa-brands fa-github
-        button_link: https://github.com/CloudCannon/eleventy-starter/
+        button_text:
+        button_icon:
+        button_link:
         background_color: '#034ad8'
         hover_brightness: 0.85
         text_color: '#ffffff'
       - _bookshop_name: buttons/secondary
-        button_text: CloudCannon
-        button_icon: CloudCannon
-        button_link: https://www.cloudcannon.com
+        button_text:
+        button_icon:
+        button_link:
         text_color: '#034ad8'
         hover_brightness: 0.95
   - _bookshop_name: left-right
-    background_color: '#ffffff'
+    background_color: '#808080'
     heading:
-      heading_text: Keep what you need. Delete the rest.
+      heading_text:
       color: '#393939'
     text:
-      markdown_content: >-
-        To help save you time, some features are set up in this template, like:
-
-        -
-        [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/)
-
-        - Blog with pagination, tags and
-        [snippets](https://cloudcannon.com/documentation/articles/snippets-using-eleventy-shortcodes/)
-
-        - [Image optimization](https://www.11ty.dev/docs/plugins/image/)
-
-        - SEO Controls
-
-        - Responsive header and footer
-
-        - [Font Awesome
-        Icons](https://fontawesome.com/search?o=r&m=free&s=solid)
-
-        - Schemas for adding new pages
-
-        - Editable color pallete
-
-        - Markdown styles
-
-        - CloudCannon configuration
+      markdown_content: ''
       color: '#393939'
     image:
       image_path: /assets/images/undraw-hello.svg
