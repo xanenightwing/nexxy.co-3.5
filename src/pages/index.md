@@ -3,9 +3,8 @@ _schema: default
 title: Home
 seo:
   page_description: >-
-    A starting point for developers looking to build a website with Eleventy,
-    using Bookshop components in CloudCannon. Create your own copy, and start
-    creating your own components to use in the CloudCannon CMS.
+    Nexan's Website - a place for a silly possum vtuber to put their opinions in
+    a way that can't be censored by the social media sites
   canonical_url:
   featured_image:
   featured_image_alt:
@@ -98,9 +97,9 @@ content_blocks:
       text_color: '#ffffff'
   - _bookshop_name: left-right
     background_color: '#ffffff'
-    flipped: false
     heading:
       heading_text: You choose your editing experience.
+      color: '#393939'
       text_color: '#333232'
     text:
       markdown_content: >-
@@ -115,6 +114,7 @@ content_blocks:
         Git-backed means you can keep all your familiar git workflows, while
         providing an easy-to-understand interface for non-technical editors to
         collaborate via Git.
+      color: '#393939'
       text_color: '#333232'
     image:
       image_path: /assets/images/undraw-startup.svg
@@ -123,13 +123,14 @@ content_blocks:
         laptop that comes up their waist. One of their hands is on the back of
         the laptop, and one is in their pocket. On the laptop screen is an
         illustration of the world.
+    flipped: false
     button:
       _bookshop_name: buttons/primary
       button_text: GitHub
       button_icon: fa-brands fa-github
       button_link: https://github.com/CloudCannon/eleventy-starter/
-      button_aria_label:
       background_color: '#034AD8'
       hover_brightness: 0.85
       text_color: '#ffffff'
+      button_aria_label:
 ---
